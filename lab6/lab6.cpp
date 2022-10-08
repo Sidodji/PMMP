@@ -102,9 +102,9 @@ void detectAndDisplay(Mat frame)
             circle(frame, eye_center, radius, Scalar(255, 0, 0), 4);
             //проверка на открытые глаза
             if (!flag) {
-                cout << "Eye is open:  " << eye_center;
+                cout << "Eye is open:  " << eye_center << endl;
                 flag = true;
-            }     
+            }
         }
 
         //smile
